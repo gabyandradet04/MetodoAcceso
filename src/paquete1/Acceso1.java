@@ -6,10 +6,38 @@ public class Acceso1 {
     
      private int edad;
      private double altura=35;
-     private String nombre;
+     static String nombre;//deja fihçjo un valor y toma el ultimo cambio que se realizo
      private double peso;
+     public void setedad (int e){
+         edad=e;
+         
+     }//metodo para asignar valor
+     public int getedad(){
+         return edad;
+     }//metodo para obtener valor, depende del tipo de atributo(
       
-    
+     public void setaltura (double e){
+         altura=e;
+         
+     }
+     public double getaltura(){
+         return altura;
+     }
+     
+      public void setnombre (String e){
+         nombre=e;
+         
+     }
+     public String getnombre(){
+         return nombre;
+     }
+      public void setpeso (double e){
+         peso=e;
+         
+     }
+     public double getpeso(){
+         return peso;
+     }
     public static void main(String [] args){
     
     Acceso1 obj1 = new Acceso1();
@@ -29,7 +57,7 @@ public class Acceso1 {
         Acceso1 obj3= new Acceso1();
     
         obj3.edad=25;
-        obj3.nombre="pericles";
+        obj3.nombre="rodrigo";
         obj3.altura=1.6;
         obj3.peso=62;
         
@@ -43,7 +71,7 @@ public class Acceso1 {
         Acceso1 obj5= new Acceso1();
     
         obj5.edad=28;
-        obj5.nombre="ramiro";
+        obj5.nombre="pericles";
         obj5.altura=1.55;
         obj5.peso=69;
         
