@@ -2,16 +2,16 @@
 package paquete1;
 
 
-public class Acceso1 {
+public class Persona {
     
      private int edad;
      private double altura=35;
-     static String nombre;//deja fihçjo un valor y toma el ultimo cambio que se realizo
+     static String nombre;//deja fijo un valor y toma el ultimo cambio que se realizo
      private double peso;
      public void setedad (int e){
          edad=e;
          
-     }//metodo para asignar valor
+     }//metodo para asignar valor  VOID= no devuelve
      public int getedad(){
          return edad;
      }//metodo para obtener valor, depende del tipo de atributo(
@@ -40,35 +40,35 @@ public class Acceso1 {
      }
     public static void main(String [] args){
     
-    Acceso1 obj1 = new Acceso1();
+    Persona obj1 = new Persona();
     
         obj1.edad=15;
         obj1.nombre="juan";
         obj1.altura=1.5;
         obj1.peso=65;
         
-    Acceso1 obj2= new Acceso1();
+    Persona obj2= new Persona();
     
         obj2.edad=18;
         obj2.nombre="pedro";
         obj2.altura=1.3;
         obj2.peso=60;
         
-        Acceso1 obj3= new Acceso1();
+        Persona obj3= new Persona();
     
         obj3.edad=25;
         obj3.nombre="rodrigo";
         obj3.altura=1.6;
         obj3.peso=62;
         
-        Acceso1 obj4= new Acceso1();
+        Persona obj4= new Persona();
     
         obj4.edad=23;
         obj4.nombre="rodrigo";
         obj4.altura=1.63;
         obj4.peso=75;
         
-        Acceso1 obj5= new Acceso1();
+        Persona obj5= new Persona();
     
         obj5.edad=28;
         obj5.nombre="pericles";
